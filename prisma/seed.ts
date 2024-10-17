@@ -5,15 +5,12 @@ async function main() {
     data: [
       {
         name: "Idrogeno",
-        number: 1,
       },
       {
         name: "Elio",
-        number: 2,
       },
       {
         name: "Litio",
-        number: 3,
       },
     ],
   });
