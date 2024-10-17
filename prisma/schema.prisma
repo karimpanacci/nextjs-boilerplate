@@ -14,5 +14,6 @@ datasource db {
 }
 
 model ChemicalElement {
-  name String @id
+  number Int @id
+  name String
 }
