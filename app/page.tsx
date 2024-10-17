@@ -1,6 +1,8 @@
 import Image from "next/image";
 import prisma from "@/db";
 
+export const dynamic = "force-dynamic";
+
 export default async function Home() {
   const allElements = await prisma.chemicalElement.findMany();
 
