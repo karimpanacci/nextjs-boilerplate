@@ -15,7 +15,7 @@ export default async function Home() {
             key={index}
           >
             <p className="font-medium">{item.name}</p>
-            {/* <p className="absolute top-1 left-3 font-bold">{item.number}</p> */}
+            <p className="absolute top-1 left-3 font-bold">{item.number}</p>
           </div>
         ))}
       </main>
